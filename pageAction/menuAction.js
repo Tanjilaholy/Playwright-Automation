@@ -21,7 +21,6 @@ export class MenuAction {
     await closeButton.click();
     await this.menu.menuButton.waitFor({ state: 'visible' });
   }
-
   async logout() {
     await this.openMenu();
     await this.menu.logout.dispatchEvent('click');
