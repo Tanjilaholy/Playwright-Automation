@@ -5,7 +5,7 @@ export class CheckoutObject {
     this.postalCode = page.getByPlaceholder('Zip/Postal Code');
     this.continueButton = page.getByRole('button', { name: 'Continue' });
 
-    // Ei naam gulo kheyal koren
+
     this.itemNames = page.locator('.inventory_item_name');
     this.subTotal = page.locator('.summary_subtotal_label'); 
     this.tax = page.locator('.summary_tax_label');           
