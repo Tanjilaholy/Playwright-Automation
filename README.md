@@ -17,6 +17,10 @@ npm install
 ```bash
 npx playwright install
 ```
+## Install Allure Commandline
+```bash
+npm install --save-dev allure-commandline
+```
 ## Running Tests (Sequential Execution)
 Run all tests together (login, Q2, Q3) with Allure report generation:
 ```bash
